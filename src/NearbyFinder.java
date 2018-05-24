@@ -24,8 +24,8 @@ public class NearbyFinder {
   }
 
   /**
-   * @param x x coordinate
-   * @param y y coordinate
+   * @param x <code>int</code> x coordinate
+   * @param y <code>int</code> y coordinate
    * @return an <code>int[]</code> with the nearby elements of the
    * target at [x, y] within the maximum
    * "distance" of range (excluding the target element itself)
