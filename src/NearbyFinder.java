@@ -28,7 +28,8 @@ public class NearbyFinder {
    * @param y <code>int</code> y coordinate
    * @return an <code>int[]</code> with the nearby elements of the
    * target at [x, y] within the maximum
-   * "distance" of range (excluding the target element itself)
+   * "distance" of range (excluding the target element itself)<br>
+   * If x or y are invalid indices, the method returns an empty array.
    */
   public int[] getNearby(int x, int y, int range) {
     if (x < 0 || x > this.twoDimInts.length - 1) {
